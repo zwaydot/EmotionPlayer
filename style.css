@@ -1,0 +1,145 @@
+@font-face {
+  font-family: 'iconfont';  /* project id 195642 */
+  src: url('http://at.alicdn.com/t/font_c0gkod2mqqhkhuxr.eot');
+  src: url('http://at.alicdn.com/t/font_c0gkod2mqqhkhuxr.eot?#iefix') format('embedded-opentype'),
+  url('http://at.alicdn.com/t/font_c0gkod2mqqhkhuxr.woff') format('woff'),
+  url('http://at.alicdn.com/t/font_c0gkod2mqqhkhuxr.ttf') format('truetype'),
+  url('http://at.alicdn.com/t/font_c0gkod2mqqhkhuxr.svg#iconfont') format('svg');
+}
+@font-face {
+ font-family: "FZBoYaSong";
+ src: url("font/FZBoYaSong.TTF");
+}
+
+.iconfont{
+    font-family:"iconfont" !important;
+    font-size:24px;
+    font-style: normal;
+    color: rgba(255,255,255,0.5);
+    margin: auto;
+  }
+.share {
+    width: 50px;
+    height: 50px;
+    background-color: rgba(255,255,255,0.08);
+    border-radius: 100%;
+    position: absolute;
+    top: 4%;
+    right: 4%;
+    display: flex;
+  }
+body, h1 {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #066f4a;
+}
+@-webkit-keyframes myfirst
+	{
+	0%   {background: #066f4a;}
+	20%  {background: #006284;}
+	40%  {background: #A8497A;}
+	60%  {background: #FFB11B;}
+	80%  {background: #6A4C9C;}
+	100% {background: #066f4a;}
+}
+.backgroundChange {
+	-webkit-animation: myfirst 20s infinite;
+}
+h1 {
+  color: rgba(255,255,255,0.9);
+  -webkit-writing-mode: vertical-lr;
+  padding-left: 3%;
+  padding-top: 3%;
+  font-size: 24px;
+  font-family: Helvetica;
+}
+#playbutton{
+  width: 80px;
+  height: 80px;
+  border: 2px solid rgba(255,255,255,0.6);
+  border-radius: 100%;
+  overflow: hidden;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-100%);
+  z-index: 99;
+  display: flex;
+}
+#music_btn{
+  position: absolute;
+  width:100;
+  height:100%;
+  z-index: 99;
+}
+#wave{
+  position: absolute;
+  top: 30%;
+  left: -50%;
+  width: 200%;
+  height: 120%;
+  z-index: 1;
+}
+
+.illustrator{
+  width: 500px;
+  height: 500px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-75%);
+  background-image: url(image/coffee.svg);
+  background-repeat: no-repeat;
+  background-position: 70% 63%;
+  background-size: 400px 400px;
+  opacity: 0.1;
+  z-index: 1;
+
+}
+.content{
+  position: absolute;
+  bottom: 10px;
+  height: 220px;
+  width: 100%;
+  opacity: 0;
+}
+.title{
+  float: left;
+  color: rgba(255,255,255,1);
+  font-size: 30px;
+  font-family: "FZBoYaSong";
+  -webkit-writing-mode: vertical-lr;
+  margin-right: 10px;
+  padding-left: 3%;
+}
+.words {
+  float: left;
+  color: rgba(255,255,255,0.6);
+  font-size: 18px;
+  font-family: "FZBoYaSong";
+  line-height: 1.5em;
+  -webkit-writing-mode: vertical-lr;
+  letter-spacing: 0.2em;
+  max-width: 60%;
+  overflow: scroll;
+}
+.time {
+  float: right;
+  -webkit-writing-mode: vertical-lr;
+  padding-right: 3%;
+  color: rgba(255,255,255,0.8);
+  font-size: 18px;
+  font-family: "FZBoYaSong";
+  letter-spacing: 0.1em;
+}
+/*.triangle {
+  width:0;
+  height:0;
+  border-top:20px solid transparent;
+  border-bottom: 20px solid transparent;
+  border-left: 20px solid #fff;
+  margin-left: 35px;
+  margin-top: 20px;
+}*/
