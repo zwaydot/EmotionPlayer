@@ -1,10 +1,12 @@
+$('html').one('touchstart',function(){
+	audio.play();
+});
 $(function(){
   $('.share').hide();
   $('.share').fadeIn(1500);
   $('.content').animate({bottom:'+=30px', opacity: 1} , 1000 );
   $('#playbutton').on('click', function() {
       var music = document.getElementById("music");
-      playbutton.addEventListener('click', onClick, false);
       if(music.paused){
           music.play();
           $("#music_btn").attr("src","image/stop.svg");
