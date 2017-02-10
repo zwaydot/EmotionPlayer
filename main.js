@@ -1,7 +1,6 @@
 $(function(){
   $('.share').hide();
   $('.share').fadeIn(1500);
-  $('#wave').hide();
   $('.content').animate({bottom:'+=30px', opacity: 1} , 1000 );
   $('#playbutton').on('click', function() {
       var music = document.getElementById("music");
