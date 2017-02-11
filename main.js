@@ -1,10 +1,15 @@
 // $('html').one('touchstart',function(){
 // 	audio.play();
 // });
-var music = document.getElementById("music");
-document.addEventListener('DOMContentLoaded', function () {
-music.play();
-});
+// var music = document.getElementById("music");
+// document.addEventListener('DOMContentLoaded', function () {
+// music.play();
+// });
+
+document.addEventListener("DOMContentLoaded", function () {
+	var music = document.getElementById("music");
+  music.play();
+}, false);
 
 $(function(){
   $('.share').hide();
