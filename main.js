@@ -1,6 +1,11 @@
-$('html').one('touchstart',function(){
-	audio.play();
+// $('html').one('touchstart',function(){
+// 	audio.play();
+// });
+var music = document.getElementById("music");
+document.addEventListener('DOMContentLoaded', function () {
+music.play();
 });
+
 $(function(){
   $('.share').hide();
   $('.share').fadeIn(1500);
