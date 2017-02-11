@@ -1,15 +1,12 @@
-// $('html').one('touchstart',function(){
-// 	audio.play();
-// });
-// var music = document.getElementById("music");
-// document.addEventListener('DOMContentLoaded', function () {
-// music.play();
-// });
+$('html').one('touchstart',function(){
+var music = document.getElementById("music");
+	music.play();
+});
 
-document.addEventListener("DOMContentLoaded", function () {
-	var music = document.getElementById("music");
-  music.play();
-}, false);
+// document.addEventListener("DOMContentLoaded", function () {
+// 	var music = document.getElementById("music");
+//   music.play();
+// }, false);
 
 $(function(){
   $('.share').hide();
