@@ -1,19 +1,7 @@
-// $('html').one('touchstart',function(){
-// var music = document.getElementById("music");
-// 	music.play();
-// });
-
-$(document).ready(function(){
-	var music = document.getElementById('music');
+$('html').one('touchstart',function(){
+var music = document.getElementById("music");
 	music.play();
-        });
-	function audioAutoPlay() {
-            var music = document.getElementById('music');
-            music.play();
-            document.addEventListener("DOMContentLoaded", function () {
-                music.play();
-            }, false);
-						}
+});
 
 // document.addEventListener("DOMContentLoaded", function () {
 // 	var music = document.getElementById("music");
